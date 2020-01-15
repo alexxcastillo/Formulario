@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INICIO</title>
+    
+    <link rel="stylesheet" href="css/e.css">
+</head>
+
+<body>
+    <center>
+        
+            <div id="registrar">
+                <h1>REGISTRARSE</h1>
+                 <p id="mensajeError" style="display: none"></p>
+
+
+                <form action="" method="POST" onsubmit="validar();return false" id="f1">
+                    <div id="registro">
+                        <table>
+                            <tr>
+                                <td><label for="nombre">Nombre:*</label></td>
+                                <td><input type="text" name="name" id="nombre" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="apellidos">Apellidos:*</label></td>
+                                <td><input type="text" name="apellidos" id="apellidos" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="ce">Correo Electrónico o Teléfono Móvil:*</label></td>
+                                <td><input type="text" name="email"  id="correo" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="contraseña">Contraseña:*</label></td>
+                                <td><input type="password" name="pass"  id="pass1" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="ccontraseña">Confirmación Contraseña:*</label></td>
+                                <td><input type="password" name="cpass" id="cpass" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="fecha">Fecha de Nacimiento:</label></td> 
+                                <td><input type="date" name="fecha"></td>
+                            </tr>
+
+                        </table>
+                        <br>
+                        <center><a id="volver">VOLVER</a></center>
+                    </div>
+                    <br>
+                    <center><button value="ENVIAR" class="env" name="env" id="enviar1">ENVIAR</button></center>
+                </form>
+                 
+            </div>
+           
+
+            <div id="log">
+
+                <h1>LOGIN</h1>
+                 <p id="c"></p>
+               
+                <form action="" method="POST" onsubmit="comprobar();return false" id="f2">
+                    
+                    <div id="login">
+                        <table>
+                            <tr>
+                                <td><label for="usuario">Correo o Móvil:*</label></td>
+                                <td><input type="text" name="name2" required id="correo2"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="contraseñaaa">Contraseña:*</label></td>
+                                <td><input type="password" name="pass2" required id="pass2"></td>
+                            </tr>
+                        </table>
+                        <center><label for="mc">Mostrar Contraseña</label><input type="checkbox" id="check">
+                            <a id="registrarse">REGISTRARSE</a>
+                        </center>
+                    </div>
+                    <br>
+                    <center><button value="ENVIAR" class="env" name="env2" id="enviar2">ENVIAR</button></center>
+                </form>
+            </div>
+            
+            <div id="conect" onsubmit="desconectar();return false">
+               <form action="" method="post" onsubmit="desconectar();return false" id="f3"> 
+               <p id="a"></p>
+                
+                <button value="DESCONECTAR" class="env" id="desconect">DESCONECTAR</button>
+                </form>
+               
+            </div>
+            
+            
+             <script src="js/j.js"></script>
+            
+          
+        
+
+    </center>
+   
+</body></html>

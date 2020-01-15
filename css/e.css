@@ -1,0 +1,56 @@
+#registro{
+    width: 40%;
+    background-color:coral;
+}
+body{
+    background-color: chocolate
+}
+
+label{
+    color: aliceblue;
+}
+
+.env:hover{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    font-family: cursive;
+}
+#login{
+      width: 30%;
+    background-color:coral;
+    
+}
+h1{
+    font-family: courier;
+    color: aliceblue;
+}
+
+#registrar{
+    display: none;
+}
+#registrarse{
+    color:crimson;
+    background-color: yellow;
+}
+#volver{
+    color:crimson;
+    background-color: yellow;
+}
+.error{
+    color:white;
+    background-color: red;
+}
+.confirm{
+    color: white;
+    background-color: lawngreen;
+    
+}
+
+#c{
+    display: none;
+}
+
+#conect{
+    display: none;
+}
